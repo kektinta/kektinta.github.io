@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About Pixyll
+title: About Kektinta
 permalink: /about/
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+The blog is based on the Jekyll theme, Pixyll by [John Otander](http://johnotander.com) 
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
 
 Thanks to the following:
 
