@@ -8,5 +8,6 @@ published : true
 ---
 
 
-I got problem to push to different github accounts: Let's see if it works.
-
+I got problem to push to different github accounts: Let's see 
+if it works. Here is a test from Nano within the terminal.
+yes's jour
