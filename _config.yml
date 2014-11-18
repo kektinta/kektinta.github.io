@@ -15,8 +15,8 @@ show_related_posts: false
 show_post_footers:  false
 
 # Social icons
-show_social_icons: false
-github_username:
+show_social_icons: true
+github_username: kektinta
 twitter_username:
 google_plus_id:
 linkedin_username:
@@ -29,4 +29,4 @@ markdown:     kramdown
 permalink:    pretty
 paginate:     3
 sass:
-  compressed: true
+compressed: true
