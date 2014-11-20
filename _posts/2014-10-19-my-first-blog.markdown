@@ -68,6 +68,11 @@ In case that you have multi-github-accounts and want to set ssh certificates,  f
 * Create a config file inside .ssh/ for ghaccount-1 and ghaccount-2
 * Inside each origin folder, for example github account-1, enter this command into the terminal : git remote set-url origin git@ghaccount-1:nameaccount1/nameaccount1.github.io.git
 
+## Ajustement for Pixyll theme
+
+To change headers' font size, go to _sass/_main.scss
+
+Modify font size for headers h1, h2, h3 ... inside three blocks *@media screen* : min-width : 48em, max-width : 48em, min-width : 64e
 
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
