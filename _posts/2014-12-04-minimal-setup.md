@@ -13,12 +13,20 @@ In this moment, I use Manjaro OS, a GNU-Linux distribution based on Arch Linux. 
 
 Manjaro Net Minimal Edition with :
 
+<<<<<<< HEAD
 * Windows manager : i3 (or spectrwm,  Ratpoison)
+=======
+* Windows manager : spectrwm or i3 or Ratpoison
+>>>>>>> 9be68e88d0054ada54009e1678690f004f68bf2b
 * File manager : Ranger
 * Text editor : Vim
 * Media player : mplayer, cmus, mpsyt 
 * Web-browser : dwb
+<<<<<<< HEAD
 * Email : nmh , getmail (simple setup, mail retriever from server), msmtp (to send mail)
+=======
+* Email : nmh (cannot make it work yet), getmail (simple setup, mail retriever from server), msmtp (to send mail)
+>>>>>>> 9be68e88d0054ada54009e1678690f004f68bf2b
 * Terminal : tmux with tmuximator, termite, st
 * PDF reader : mupdf, evinc
 
@@ -35,6 +43,29 @@ Extra packages :
 
 * For retrieving mails : getmail
 * For sendmail : use msmtp
+<<<<<<< HEAD
+=======
+
+## Configurate mh_profile
+
+'''
+Path: Mail
+Inbox : inbox
+Editor: /usr/bin/vim
+'''
+
+## Configurate getmail
+Nmh uses the mh mail format, which is different from the maildir and mbox. Setting your Path to a preexisting maildir folder, for example, will not work. We need to use rcvstore function of nmh.  Inside getmailrc file, modify [destination] part this way 
+
+'''
+[destination]
+type = MDA_external
+path = /usr/lib/nmh/rcvstore
+arguments = ("+inbox",)
+'''
+
+To do: even set read_all=False, getmail redownload all the mails again. Maybe this command doesn't play well with rcvstore.
+>>>>>>> 9be68e88d0054ada54009e1678690f004f68bf2b
 
 ## Configurate mh_profile
 
