@@ -59,7 +59,6 @@ arguments = ("+inbox",)
 '''
 
 To do: even set read_all=False, getmail redownload all the mails again. Maybe this command doesn't play well with rcvstore.
->>>>>>> 9be68e88d0054ada54009e1678690f004f68bf2b
 
 ## Configurate mh_profile
 
