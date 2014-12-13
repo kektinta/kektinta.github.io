@@ -13,13 +13,11 @@ In this moment, I use Manjaro OS, a GNU-Linux distribution based on Arch Linux. 
 
 Manjaro Net Minimal Edition with :
 
-<<<<<<< HEAD
 * Windows manager : i3 (or spectrwm,  Ratpoison)
 * File manager : Ranger
 * Text editor : Vim
 * Media player : mplayer, cmus, mpsyt 
 * Web-browser : dwb
-<<<<<<< HEAD
 * Email : nmh , getmail (simple setup, mail retriever from server), msmtp (to send mail)
 * Terminal : tmux with tmuximator, termite, st
 * PDF reader : mupdf, evinc
@@ -37,8 +35,6 @@ Extra packages :
 
 * For retrieving mails : getmail
 * For sendmail : use msmtp
-<<<<<<< HEAD
-=======
 
 ## Configurate mh_profile
 
