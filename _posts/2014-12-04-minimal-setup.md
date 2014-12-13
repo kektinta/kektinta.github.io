@@ -15,18 +15,12 @@ Manjaro Net Minimal Edition with :
 
 <<<<<<< HEAD
 * Windows manager : i3 (or spectrwm,  Ratpoison)
-=======
-* Windows manager : spectrwm or i3 or Ratpoison
->>>>>>> 9be68e88d0054ada54009e1678690f004f68bf2b
 * File manager : Ranger
 * Text editor : Vim
 * Media player : mplayer, cmus, mpsyt 
 * Web-browser : dwb
 <<<<<<< HEAD
 * Email : nmh , getmail (simple setup, mail retriever from server), msmtp (to send mail)
-=======
-* Email : nmh (cannot make it work yet), getmail (simple setup, mail retriever from server), msmtp (to send mail)
->>>>>>> 9be68e88d0054ada54009e1678690f004f68bf2b
 * Terminal : tmux with tmuximator, termite, st
 * PDF reader : mupdf, evinc
 
