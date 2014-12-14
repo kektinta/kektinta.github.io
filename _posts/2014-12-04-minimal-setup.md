@@ -80,7 +80,7 @@ To do: even set read_all=False, getmail redownload all the mails again. Maybe th
 
 Tools I use:
 
-* Support : termite, tmux & tmuxinator
+* Support : termite, tmux and tmuxinator
 * Text editor : Vim
 * Version control : Git
 
