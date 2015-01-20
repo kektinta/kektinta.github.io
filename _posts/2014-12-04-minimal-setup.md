@@ -13,14 +13,14 @@ In this moment, I use Manjaro OS, a GNU-Linux distribution based on Arch Linux. 
 
 Manjaro Net Minimal Edition with :
 
-* Windows manager : i3 (or spectrwm,  Ratpoison)
-* File manager : Ranger
+* Windows manager : i3 
 * Text editor : Vim
+* File manager : Ranger
 * Media player : mplayer, cmus, mpsyt 
 * Web-browser : dwb
-* Email : nmh , getmail (simple setup, mail retriever from server), msmtp (to send mail)
-* Terminal : tmux with tmuximator, termite, st
-* PDF reader : mupdf, evinc
+* Email : nmh or mutt. Mutt is easier to configurate
+* Terminal : tmux with tmuximator, xfce4-terminal
+* PDF reader : mupdf, evince
 
 A list of minimalist programs could be found on suckless.org
 
@@ -28,6 +28,21 @@ For blogging, I use Jekyll to handle my blog on github. The posts are written in
 
 For Data analysis, I use R with Sublime Text 3 or Vim (with R plugin) within tmux.
 
+# Basic PC controls within i3
+
+Shutdown, sleep and hibernate via Terminal
+
+* PC Shutdown : sudo poweroff
+* PC reboot : sudo reboot
+* Sleep : systemctl suspend
+* Hibernate : systemctl hibernate
+
+Basic i3 windows and panes controls: (I defined mod = Win touch)
+
+* Vertial/Horizontal panes splits : mod + (v, h)
+* Control panes layouts : mod + (w, s, e) 
+* Move between panes : mod + (j, k)
+* Switch windows : mod + [1..9]
 
 # Email with nmh
 
