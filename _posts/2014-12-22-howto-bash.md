@@ -4,7 +4,7 @@ title:      Bash - personal memo
 date:       2014-12-22 12:32:00
 summary:    
 categories: 
-published : true
+published : fasle
 ---
 
 # Configurations
