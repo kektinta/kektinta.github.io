@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Bash - personal memo
-date:       2014-12-22 12:32:18
+date:       2014-12-22 12:32:00
 summary:    
 categories: 
 published : true
